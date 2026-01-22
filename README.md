@@ -3,12 +3,12 @@ Contiene los distintos ejemplos vistos en clase, así como la resolución de los
 
 ## 📥 Cómo descargar los ejercicios
 
-### Opción 1: Descargar todo (recomendado)
+### Opción 1: Descargar todo 
 1. Haz clic en el botón verde **Code**
 2. Selecciona **Download ZIP**
 3. Descomprime el archivo en tu computadora
 
-### Opción 2: Clonar con Git
+### Opción 2: Clonar con Git (recomendado)
 ```bash
 git clone https://github.com/tu-usuario/nombre-repo.git
 ```
