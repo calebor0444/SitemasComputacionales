@@ -15,6 +15,9 @@ namespace ConexionALaBaseDeDatos
             //BusquedaPorCondicion.Ejecutar();
             //JoinSimple.Ejecutar();
             //NavegacionEntreEntidades.Ejecutar();
+
+            //Ejercicio4.Ejecutar();
+            //Ejercicio5.Ejecutar();
         }
 
 
