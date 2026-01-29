@@ -34,7 +34,7 @@
                     string? elNombre = Console.ReadLine();
                     if (elNombre != null)
                     {
-                        bool existe = losEstudiantes.Exists(n => n == elNombre);
+                        bool existe = losEstudiantes.Exists(nombre => nombre == elNombre);
                         if (existe)
                             Console.WriteLine("El nombre ya existe en la lista");
                         else
@@ -69,9 +69,9 @@
         Console.WriteLine("****************Estudiantes actuales*******************");
         if (losEstudiantes.Count > 0)
         {
-            foreach (var item in losEstudiantes)
+            foreach (var estudiante in losEstudiantes)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(estudiante);
             }
         }
         else
