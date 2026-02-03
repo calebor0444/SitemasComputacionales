@@ -16,12 +16,6 @@ namespace ConexionALaBaseDeDatos.Ejemplos
                 {
                     //Obtención de las primeras 10 canciones ordenadas alfabeticamente
 
-                    //Expresión de consulta
-                    var clientes = (from cliente in elContextoBd.Customers
-                                    where cliente.Country == "Argentina"
-                                    select cliente).Take(10).ToList();
-
-
                     //Expresión de metodo
                     var lasCanciones = elContextoBd.Tracks
                         .OrderBy(c => c.Name)
