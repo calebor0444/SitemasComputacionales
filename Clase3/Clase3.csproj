@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Ejercicios\Ejercicio1.cs" />
+    <Compile Remove="Ejercicios\Ejercicio2.cs" />
+    <Compile Remove="Ejercicios\Ejercicio3.cs" />
+    <Compile Remove="Ejercicios\Ejercicio4.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.23" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.23">
       <PrivateAssets>all</PrivateAssets>
@@ -30,6 +37,10 @@
     <None Update="appsettings.Development.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Ejercicios\" />
   </ItemGroup>
 
 </Project>
